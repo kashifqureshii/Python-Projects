@@ -1,15 +1,32 @@
-### 1. Language Translator
+# Google Translator
 
-A simple Python translation application with a Tkinter GUI.
+This is a simple Google Translator made with Python. It has a small interface where you can enter text, choose languages, and translate the text.
 
-The project allows users to enter text, select languages, and translate text using `googletrans`.
+## Features
 
-**Main concepts:**
+- Simple GUI
+- Text translation
+- Source and target language selection
+- Uses Google Translate
 
-- Python
-- Tkinter
-- Translation
-- User input
-- External libraries
+## Requirements
 
----
+```bash
+pip install googletrans==4.0.0-rc1
+```
+
+Tkinter is also used for the interface.
+
+## How to Run
+
+```bash
+python project.py
+```
+
+Enter your text, select the languages, and click the translate button.
+
+## Files
+
+- `project.py` - main program
+- `README.md` - project information
+
